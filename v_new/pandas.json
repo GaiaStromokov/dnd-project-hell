@@ -1,0 +1,1099 @@
+{
+    "CORE": {
+        "L": 1,
+        "PB": 2,
+        "R": "Elf",
+        "SR": "Wood",
+        "C": "Fighter",
+        "SC": "",
+        "BG": "Criminal"
+    },
+    "SHEET": {
+        "VISION": {
+            "V": 0
+        },
+        "SPEED": {
+            "CLASS": 0,
+            "V": 0
+        }
+    },
+    "BACKGROUND_data": {
+        "DATA": {
+            "SKILL": [
+                "Sleight of Hand",
+                "Stealth"
+            ],
+            "PROF": {
+                "ARMOR": [],
+                "TOOL": [
+                    "Thief"
+                ],
+                "SIMPLE": [],
+                "MARTIAL": [],
+                "LANG": []
+            },
+            "Equipment": [],
+            "Feature": {}
+        }
+    },
+    "CLASS_data": {
+        "SKILL": [
+            "Acrobatics",
+            "Intimidation"
+        ],
+        "DATA": {
+            "HD": 10,
+            "SKILL_LIST": [
+                "Acrobatics",
+                "Animal Handling",
+                "Athletics",
+                "History",
+                "Insight",
+                "Intimidation",
+                "Perception",
+                "Survival"
+            ],
+            "SAVES": [
+                "STR",
+                "CON"
+            ],
+            "PROF": {
+                "ARMOR": [
+                    "ALL"
+                ],
+                "TOOL": [],
+                "SIMPLE": [
+                    "ALL"
+                ],
+                "MARTIAL": [
+                    "ALL"
+                ],
+                "LANG": []
+            }
+        }
+    },
+    "RACE_data": {
+        "ASI": [
+            "DEX",
+            "DEX"
+        ],
+        "DATA": {
+            "SPEED": 0,
+            "VISION": 0,
+            "TRAITS": {
+                "RACE": {
+                    "Fey Ancestry": {
+                        "Desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                    },
+                    "Trance": {
+                        "Desc": "Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day."
+                    }
+                },
+                "SRACE": {
+                    "Mask of the Wild": {
+                        "Desc": "You can attempt to hide even when you are only lightly obscured."
+                    }
+                },
+                "COMBINE": {
+                    "Fey Ancestry": {
+                        "Desc": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                    },
+                    "Trance": {
+                        "Desc": "Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day."
+                    },
+                    "Mask of the Wild": {
+                        "Desc": "You can attempt to hide even when you are only lightly obscured."
+                    }
+                }
+            },
+            "SKILL": {
+                "RACE": [
+                    "Perception"
+                ],
+                "SRACE": [
+                    "Stealth"
+                ],
+                "COMBINE": [
+                    "Perception",
+                    "Stealth"
+                ]
+            },
+            "PROF": {
+                "RACE": {
+                    "ARMOR": [],
+                    "TOOL": [],
+                    "SIMPLE": [],
+                    "MARTIAL": [],
+                    "LANG": [
+                        "Common",
+                        "Elvish"
+                    ]
+                },
+                "SRACE": {
+                    "ARMOR": [],
+                    "TOOL": [],
+                    "SIMPLE": [
+                        "Shortbow"
+                    ],
+                    "MARTIAL": [
+                        "Longsword",
+                        "Shortsword",
+                        "Longbow"
+                    ],
+                    "LANG": []
+                },
+                "COMBINE": {
+                    "ARMOR": [],
+                    "TOOL": [],
+                    "SIMPLE": [
+                        "Shortbow"
+                    ],
+                    "MARTIAL": [
+                        "Longsword",
+                        "Shortsword",
+                        "Longbow"
+                    ],
+                    "LANG": [
+                        "Common",
+                        "Elvish"
+                    ]
+                }
+            }
+        },
+        "Features": {}
+    },
+    "ATR": {
+        "STR": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                0,
+                0
+            ],
+            "V": 10,
+            "M": 0
+        },
+        "DEX": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                1,
+                2
+            ],
+            "V": 13,
+            "M": 1
+        },
+        "CON": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                0,
+                0
+            ],
+            "V": 10,
+            "M": 0
+        },
+        "INT": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                0,
+                0
+            ],
+            "V": 10,
+            "M": 0
+        },
+        "WIS": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                0,
+                0
+            ],
+            "V": 10,
+            "M": 0
+        },
+        "CHA": {
+            "P": 10,
+            "C": {
+                "ASI_a": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "ASI_b": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "R": [
+                0,
+                0
+            ],
+            "V": 10,
+            "M": 0
+        }
+    },
+    "SKILL": {
+        "Acrobatics": {
+            "ATR": "DEX",
+            "P": false,
+            "C": [
+                true,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 3
+        },
+        "Animal Handling": {
+            "ATR": "WIS",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Arcana": {
+            "ATR": "INT",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Athletics": {
+            "ATR": "STR",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Deception": {
+            "ATR": "CHA",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "History": {
+            "ATR": "INT",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Insight": {
+            "ATR": "WIS",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Intimidation": {
+            "ATR": "CHA",
+            "P": false,
+            "C": [
+                false,
+                true
+            ],
+            "R": false,
+            "BG": false,
+            "V": 2
+        },
+        "Investigation": {
+            "ATR": "INT",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Medicine": {
+            "ATR": "WIS",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Nature": {
+            "ATR": "INT",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Perception": {
+            "ATR": "WIS",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Performance": {
+            "ATR": "CHA",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Persuasion": {
+            "ATR": "CHA",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Religion": {
+            "ATR": "INT",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        },
+        "Sleight of Hand": {
+            "ATR": "DEX",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": true,
+            "V": 3
+        },
+        "Stealth": {
+            "ATR": "DEX",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": true,
+            "V": 3
+        },
+        "Survival": {
+            "ATR": "WIS",
+            "P": false,
+            "C": [
+                false,
+                false
+            ],
+            "R": false,
+            "BG": false,
+            "V": 0
+        }
+    },
+    "PROF": {
+        "ARMOR": {
+            "Light": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Medium": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Heavy": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Shield": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        "SIMPLE": {
+            "Club": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Dagger": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Greatclub": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Handaxe": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Javelin": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Light Hammer": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Mace": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Quarterstaff": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Sickle": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Spear": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Light Crossbow": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Dart": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Shortbow": [
+                false,
+                true,
+                true,
+                false
+            ],
+            "Sling": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        "MARTIAL": {
+            "Battleaxe": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Flail": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Glaive": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Greataxe": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Greatsword": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Halberd": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Lance": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Longsword": [
+                false,
+                true,
+                true,
+                false
+            ],
+            "Maul": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Morningstar": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Pike": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Rapier": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Scimitar": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Shortsword": [
+                false,
+                true,
+                true,
+                false
+            ],
+            "Trident": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "War Pick": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Warhammer": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Whip": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Blowgun": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Hand Crossbow": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Heavy Crossbow": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "Longbow": [
+                false,
+                true,
+                true,
+                false
+            ],
+            "Net": [
+                false,
+                true,
+                false,
+                false
+            ]
+        },
+        "TOOL": {
+            "Alchemist": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Brewer": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Calligrapher": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Carpenter": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Cartographer": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Cobbler": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Cook": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Glassblower": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Jeweler": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Leatherworker": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Mason": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Painter": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Potter": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Smith": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Tinker": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Weaver": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Thief": [
+                false,
+                false,
+                false,
+                true
+            ],
+            "Woodworker": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Disguise": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Forgery": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Dice": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Dragonchess": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Cards": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Three-Dragon Ante": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Bagpipes": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Drum": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Dulcimer": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Flute": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Lute": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Lyre": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Horn": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Pan Flute": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Shawm": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Viol": [
+                false,
+                false,
+                false,
+                false
+            ]
+        },
+        "LANG": {
+            "Common": [
+                false,
+                false,
+                true,
+                false
+            ],
+            "Dwarvish": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Elvish": [
+                false,
+                false,
+                true,
+                false
+            ],
+            "Giant": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Gnomish": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Goblin": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Halfling": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Orc": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Abyssal": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Celestial": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Draconic": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Deep Speech": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Infernal": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Primordial": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Sylvan": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "Undercommon": [
+                false,
+                false,
+                false,
+                false
+            ]
+        }
+    }
+}
